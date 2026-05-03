@@ -1,22 +1,88 @@
 
-# React + Vite
+# ✨ Prompt Model AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A smart AI-powered prompt generator built with React and Google Gemini API
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 About
+**Prompt Model AI** is a web application that generates intelligent and creative
+prompts using Google's Gemini AI. Just give it a topic or idea, and it 
+instantly generates powerful prompts for you!
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🛠️ Built With
+- ⚛️ **React** — Frontend UI (app.jsx, index.js)
+- 🤖 **Google Gemini API** — AI prompt generation
+- 🎨 **CSS** — Styling
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
+```
+prompt--Model-AI/
+│
+├── src/
+│   ├── app.jsx        # Main React component
+│   └── index.js       # Entry point
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/harshkr95605-code/prompt--Model-AI.git
+cd prompt--Model-AI
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Setup Gemini API Key
+Create a `.env` file in the root folder:
+```
+REACT_APP_GEMINI_API_KEY=your_api_key_here
+```
+> 🔑 Get your free API key from [Google AI Studio](https://makersuite.google.com/)
+
+### 4. Run the App
+```bash
+npm start
+```
+Open **http://localhost:3000** in your browser ✅
+
+---
+
+## ✨ Features
+- ⚡ Instant AI prompt generation
+- 🤖 Powered by Google Gemini API
+- ⚛️ Built with React
+- 🔒 Secure API key handling via `.env`
+
+---
+
+## ⚠️ Important
+Never share your `.env` file or API key publicly.
+It is already added to `.gitignore` for safety ✅
+
+---
+
+## 👨‍💻 Author
+**harshkr95605**
+- GitHub: [@harshkr95605-code](https://github.com/harshkr95605-code)
+
+---
+
+## 📄 License
+This project is open source and available under the **MIT License**
 
 # prompt--Model-AI
 
